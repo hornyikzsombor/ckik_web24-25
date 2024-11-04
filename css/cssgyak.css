@@ -1,0 +1,73 @@
+body{
+	background-color:red;
+	margin: 0px;
+}
+
+.header{
+	height:450px;
+	/* background-repeat:no-repeat; */ /*(no-)repeat - (nem) ismétli a képet*/
+	background-size: contain; /*szélességét*/
+	/* background-size: cover; */ /*maggasságát*/
+	background-attachment: fixed;
+}
+
+.hatter1{
+	background-image: url("./kepek/haterkep1.jpg");	
+}
+.hatter2{
+	background-image: url("./kepek/haterkep.jfif");
+}
+
+.header p{
+	margin: 0px;
+	text-align:center;
+	font-size: 40px;
+	color: beige;
+	text-shadow: 3px 3px 5px black;
+	letter-spacing: 5px;
+	padding-top: 100px;
+}
+
+
+.masodik_blokk{
+	height:450px;
+}
+
+
+.feher-hatteres{
+	background-color:lightgray;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.szoveg-kep{
+	background-color:white;
+	width: 50%;
+	height: 100%;
+	
+}
+
+.feher-hatteres img{
+	/*width: 30%;	*/
+	height: 70%;
+	float:left;
+	top: 15%; 
+}
+
+.szoveg-kep-belso{
+	/* .szoveg-kep-belso */
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	float: right;
+	top: 10%;
+	padding: 10px;
+	text-align: center;
+}
+
+.szoveg-kep-belso img{
+	height: 50%;
+}
+
+.szoveg-kep-belso p{
+	text-align: left;
